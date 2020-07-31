@@ -1,0 +1,109 @@
+.head {
+    background: rgb(48, 84, 150);
+    font-size: 16px;
+}
+.head1{
+top-padding: 15px;
+bottom padding: 10px;
+}
+
+.mdl-layout__drawer-button {
+    background-color: rgb(48,84,150) !important;
+}
+
+.footer {
+    background-color: rgb(141, 141, 141) !important;
+top-padding: 15px;
+bottom padding: 10px;
+display: block;
+height: 18px;
+
+
+}
+
+.navig {
+text-align: right;
+font-size: 18px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+    margin-left: 25px;
+}
+
+table {
+    margin: 5px auto;
+    padding: 5px;
+}
+#customer-table {
+padding: 10px;
+}
+table caption {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.cart-empty {
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.notif {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+#admin-table td:nth-child(1) {
+    text-align: left;
+}
+
+#admin-table td:nth-child(3) {
+    text-align: center;
+}
+
+#admin-table td:nth-child(4) {
+    text-align: center;
+}
+
+#admin-table td:nth-child(5) {
+    text-align: center;
+}
+
+#admin-table td:nth-child(6) {
+    text-align: center;
+}
+
+#admin-table td:nth-child(7) {
+    text-align: center;
+}
+
+#customer-table td:nth-child(1) {
+    text-align: left;
+}
+
+#customer-table td:nth-child(2) {
+    text-align: center;
+}
+
+#customer-table td:nth-child(4) {
+    text-align: left;
+}
+
+#customer-table td:nth-child(5) {
+    text-align: center;
+}
+
+#cart-table td:nth-child(1) {
+    text-align: left;
+}
+
+#cart-table td:nth-child(2) {
+    text-align: left;
+}
+
+#cart-table tr:last-child {
+    font-weight: bold;
+}
