@@ -14,7 +14,7 @@ where menu_Active="Yes" AND menu_date<= trunc(current_date);
 
 /* Edit Menu Item */
 select * from menu_items 
-where menu_id = "4";
+where menu_id = '4';
 
 update menu_item 
 set menu_name='Pasta',
@@ -36,13 +36,13 @@ values (1,1),
 select menu_items.menu_name, menu_items.menu_free_delivery, menu_items.menu_price, menu_items.menu_category
 from menu_items inner join cart 
 on menu_items.menu_id = cart.menu_id
-where cart.user_id = 1; 
+where cart.user_id = '1'; 
 
 
 select sum(menu_items.menu_price) as Total from menu_item
 inner join cart on menu_items.menu_id = cart.menu_id
-where cart.user_id = 1; 
+where cart.user_id = '2'; 
 
  /* Remove Item from Cart */
 
-delete from cart where user_id=1 and menu_id=2; 
+delete from cart where user_id='1' and menu_id='2'; 
