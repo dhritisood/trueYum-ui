@@ -8,7 +8,7 @@ values(1, 'Sandwich', 99.00, 'Yes',  '2017-03-15', 'Main Course', 'Yes'),
 select * from menu_items;
       
 select menu_name,menu_price,menu_category,menu_free_deliery from menu_items
-where menu_active in('Yes');
+where menu_active in('No');
 
 update menu_items
 set menu_date = '2022-08-01'
